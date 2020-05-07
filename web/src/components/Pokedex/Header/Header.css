@@ -1,0 +1,9 @@
+.pokedex-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 125px;
+    background: #e01436;
+}

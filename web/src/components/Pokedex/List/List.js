@@ -7,8 +7,8 @@ const PokedexList = ({ pokedexList }) => {
         <div className="pokedex-list">
             {
 
-                pokedexList.map((pokemon, index, array) => (
-                   (array[index] !== array[index + 1] && <PokedexCard key={index} pokemonsData={pokemon} />)
+                pokedexList.map((pokemon, index) => (
+                   <PokedexCard key={index} pokemonsData={pokemon} />
                 ))
             }
         </div>

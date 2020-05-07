@@ -1,4 +1,9 @@
 .pokedex-search{
     display: flex;
     align-content: flex-start;
+    width: 100%;
+}
+
+body{
+    background:rgb(212, 20, 20);
 }

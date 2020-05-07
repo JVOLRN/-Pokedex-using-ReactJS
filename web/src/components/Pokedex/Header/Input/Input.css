@@ -1,0 +1,31 @@
+
+.pokedex-header__form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 66%;
+    height: 125px;
+}
+
+.pokedex-header__form-input{
+    width: 160px;
+    height: 30px;
+    border: 3px solid #CCC;
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: white;
+    background: none;
+    outline: none;
+    transition: 0.7s;
+}
+
+.pokedex-header__form-input:focus{
+    width: 250px;
+}
+
+.pokedex-header__form-input::placeholder{
+    color: white;
+}
