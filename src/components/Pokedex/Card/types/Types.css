@@ -1,0 +1,9 @@
+.card-types{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
